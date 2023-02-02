@@ -3,6 +3,7 @@ check_interval = ${runners_check_interval}
 sentry_dsn = "${sentry_dsn}"
 log_format = "json"
 listen_address = "${prometheus_listen_address}"
+log_level = "debug"
 
 [[runners]]
   name = "${runners_name}"
